@@ -19,6 +19,6 @@ It is still very early on, right now I just have the core compiling and filling 
 
 ## How to build it 
 
-gcc -x c -std=c99 -Wall -Wextra -c engine_core.c -o engine_core.o
+`gcc -x c -std=c99 -Wall -Wextra -c engine_core.c -o engine_core.o`
 
 make sure to force the compiler to compile in C just in case it wants to do it in c++ or other languages
